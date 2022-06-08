@@ -1,0 +1,33 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* #ROW */
+.row{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+/* ?COLUMNS GENERAL */
+
+.row > [class^='col']{
+
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+/* COLONNE EQUE */
+
+.row > [class^='col']{
+
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+/* //GRIGLIA DI 12 COLONNE */
