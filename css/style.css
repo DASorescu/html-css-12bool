@@ -19,3 +19,7 @@ body{
 .row [class^='col'].border-magenta{
     border: 1px solid #8B008B;
 }
+
+.row [class^='col'].height-2{
+    min-height: 100px;
+}
