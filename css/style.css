@@ -5,9 +5,9 @@ body{
 .row [class^='col'] {
     padding: 1rem;
     color: #fff;
-    font-size: 15px;
+    font-size: 10px;
     border: 1px solid #fff;
-    min-height: 100px;
+    min-height: 50px;
     background-color: #8B008B;
 }
 
