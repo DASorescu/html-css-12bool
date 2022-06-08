@@ -1,0 +1,21 @@
+body{
+    margin: 0 auto;
+}
+
+.row [class^='col'] {
+    padding: 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    min-height: 100px;
+    background-color: #8B008B;
+}
+
+/* ?UTILS */
+.row [class^='col'].bg-dk-orange{
+    background-color: darkorange;
+}
+
+.row [class^='col'].border-magenta{
+    border: 1px solid #8B008B;
+}

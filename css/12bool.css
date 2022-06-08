@@ -144,6 +144,11 @@
 
 /* #CLASSI FLEXBOX */
 
+.d-flex{
+    display: flex;
+}
+
+/* JUSTIFY CONTENT */
 .justify-content-start{
     justify-content: flex-start;
 }
@@ -167,7 +172,9 @@
 .justify-content-evenly{
     justify-content: space-evenly;
 }
-----------------------------------------------------
+
+/* ALIGN-ITEMS */
+
 .align-items-start{
     align-items: flex-start;
 }
@@ -188,5 +195,28 @@
     align-items: baseline;
 }
 
+/* ALIGN-CONTENT */
 
+.align-content-start{
+    align-content:flex-start;
+}
 
+.align-content-end{
+    align-content:flex-end;
+}
+
+.align-content-center{
+    align-content:center;
+}
+
+.align-content-stretch{
+    align-content:stretch;
+}
+
+.align-content-between{
+    align-content:space-between;
+}
+
+.align-content-around{
+    align-content:space-around;
+}
